@@ -2,8 +2,33 @@
 --  CMPM 121 
 --  April 17 2024
 
-
+Project 1 
 --  Used ChatGPT tp debug errors in syntax 
 --  Credits for usage of sprites in "sprites" folder 
 --  Worked in section in order to get grabber function to work properly 
 --  Used ChatGPT to help get my deck opperation working better
+
+Project 2 Adjustments 
+--  Used chatGPT to debug errors in syntax when needed
+--  Created "undo" button in main
+--  Adjusted grabber to work properly with stacks not working properly
+--  Added a refresh on the deck
+--  Game Winner screen located in main
+
+
+
+-- Postmortem --
+
+--  Cards disappearing was due to incorrect card insertion logic
+--  This was adjusted in grabber.lua and had to adjust wasteCard error
+
+--  Disappearing cards from the deck was adjusted with a simple 
+--  fix to arrangeWastePile
+
+--  I was unable to create a working click to add to the correct possible pile
+
+--  A lot of my code from project one needed adjustment in order to ensure a better solitaire experience for the user
+
+--  Utilized tables for stacks
+
+-- Code is refactored and working as a solitaire game would

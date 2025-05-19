@@ -40,7 +40,7 @@ function Card.shuffle()
     end
 end
 
---  DRAW CARDS
+
 function Card.draw()
     for _, card in ipairs(deck) do
         if card.faceUp then
@@ -62,7 +62,7 @@ function Card.moveCard(card, x, y)
     card.y = y
 end
 
-  --  COMPATABILITY CHECK
+  --  IF POSSIBLE CHECK
 function Card.canStackInTableau(topCard, bottomCard)
     local topCardColor = Card.getColor(topCard)
     local bottomCardColor = Card.getColor(bottomCard)
